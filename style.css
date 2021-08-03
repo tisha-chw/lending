@@ -1,0 +1,930 @@
+body {
+    margin: 0;
+}
+
+.ct-title {
+    font-style: normal;
+}
+
+.ct-title__h1 {}
+
+.ct-title__h2 {
+    font-family: 'RF Dewi Extended';
+    font-weight: 900;
+}
+
+.ct-title__h3 {
+    font-family: 'RF Dewi';
+    font-weight: normal;
+}
+
+.section {
+    padding: 15px 20px 0;
+}
+
+
+/* .section {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .section {
+        width: 840px;
+    }
+}
+
+@media (min-width: 1000px) {
+    section {
+        width: 1200px;
+    }
+} */
+
+@media (min-width: 768px) {
+    .section.section_box {
+        max-width: 840px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .section__inside {
+        max-width: 840px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .section.section_box,
+    .section__inside {
+        max-width: 1200px;
+    }
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background: url(img/logo1_lap.svg) right -160px top 90% / 275px no-repeat, url(img/Vector.svg) center top 20% / 320px no-repeat #1822B7;
+    /* background-color background-image background-position / background-size background-repeat */
+}
+
+@media (min-width: 768px) {
+    .first {
+        min-height: 605px;
+        background-position: 85% 30%, 15% 160%;
+        background-size: 267px, 529px;
+        /* background: url(img/logo1_lap.svg) left 5% top 15% / ; */
+    }
+}
+
+@media (min-width: 1000px) {
+    .first {
+        background-position: 80% 35%, 20% 170%;
+    }
+}
+
+.first__section {
+    width: 310px;
+    min-height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .first__section {
+        width: 840px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__section {
+        width: 1200px;
+    }
+}
+
+.first__header {}
+
+@media (min-width: 768px) {
+    .first__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.first__head {
+    color: #fff;
+    padding: 25px 25px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .first__head {
+        width: 50%;
+        justify-content: right;
+        padding-top: 35px;
+    }
+}
+
+.head__image {
+    max-width: 30%;
+}
+
+@media (min-width: 768px) {
+    .head__image {
+        margin: 5px;
+    }
+}
+
+.image-1 {}
+
+.image-2 {}
+
+@media (min-width: 1000px) {
+    .image-2 {
+        display: none;
+    }
+}
+
+.image-3 {}
+
+@media (min-width: 1000px) {
+    .image-3 {
+        display: none;
+    }
+}
+
+.first__contact {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .first__contact {
+        color: #fff;
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 35px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.first__lang {}
+
+@media (min-width: 768px) {
+    .first__lang,
+    .first__tel {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 14px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .first__lang {
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first__lang.first__lang_active {
+        color: #1822B7;
+        background-color: #fff;
+    }
+}
+
+.tel-number {}
+
+@media (min-width: 768px) {
+    .tel-number {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+}
+
+.first__content {
+    color: #fff;
+    text-align: left;
+    margin: 70px 0 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;
+    position: relative;
+    /* width: 320px; */
+    /* padding-right: 20px; */
+    /* padding-left: 50px; */
+}
+
+@media (min-width: 768px) {
+    .first__content {
+        margin: 0;
+        padding-right: 0;
+        display: flex;
+        flex-grow: 0;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__content {
+        padding-top: 0;
+    }
+}
+
+.first__top {}
+
+@media (min-width: 768px) {
+    .first__top {
+        width: 95%;
+        justify-content: end;
+        margin-top: 195px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__top {
+        padding-left: 0px;
+    }
+}
+
+.first__subtitle {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .first__subtitle {
+        font-size: 24px;
+        font-weight: 100;
+    }
+}
+
+.first__title {
+    font-family: 'RF Dewi Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    margin: 5px 0 0 0;
+    line-height: 110%;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+@media (min-width: 768px) {
+    .first__title {
+        font-size: 60px;
+    }
+}
+
+.first__list {
+    margin-top: 20%;
+}
+
+@media (min-width: 768px) {
+    .first__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+        margin-top: 30px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__list {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+}
+
+.first__item {
+    display: flex;
+    flex-direction: column;
+    color: #babde9;
+    position: static;
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .first__item {
+        font-size: 15px;
+        margin-bottom: 30px;
+        position: relative;
+        max-width: 28%;
+    }
+    .first__item:nth-child(n+2):before {
+        content: "";
+        position: absolute;
+        height: 8px;
+        width: 8px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        top: 50%;
+        left: -15%;
+        margin: -4px 0 0 -4px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__item {
+        max-width: 20%;
+    }
+    .first__item:nth-child(n+2):before {
+        background: linear-gradient(180deg, #EAA853 0%, #E7A652 100%);
+        height: 12px;
+        width: 12px;
+        left: -40%;
+        margin: -6px 0 0 -6px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .first__item {
+        font-size: 20px;
+    }
+}
+
+.first__strong {
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.second {
+    margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .second {
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.second__head {
+    font-family: 'RF Dewi Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+@media (min-width: 768px) {
+    .second__head {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        font-size: 28px;
+        line-height: 120%;
+    }
+}
+
+.second__title {
+    margin-block-end: 15px;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .second__title {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .second__title {
+        font-size: 48px;
+    }
+}
+
+.image__points {}
+
+.second__content {}
+
+@media (min-width: 768px) {
+    .second__content {
+        width: 60%;
+        padding-left: 50px;
+    }
+}
+
+.second__about {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+@media (min-width: 768px) {}
+
+.second__text {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+@media (min-width: 768px) {
+    .second__text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .second__text {
+        font-size: 20px;
+    }
+}
+
+.second__source {}
+
+.source__title {
+    font-size: 23px;
+    line-height: 110%;
+}
+
+@media (min-width: 768px) {
+    .source__title {
+        font-size: 24px;
+        line-height: 160%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .source__title {
+        font-size: 32px;
+    }
+}
+
+.source__subtitle {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+@media (min-width: 768px) {
+    .source__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .source__subtitle {
+        font-size: 20px;
+    }
+}
+
+.second__name {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+@media (min-width: 1000px) {
+    .second__name {
+        font-size: 20px;
+    }
+}
+
+.mission {
+    border: 0.7px solid #E3A655;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin: 0 0 45px;
+}
+
+@media (min-width: 768px) {
+    .mission {
+        margin-bottom: 70px;
+        background: url(img/Vector_orange.svg) right -450px top 50% / 600px #fff no-repeat;
+        align-self: stretch;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mission {
+        background: url(img/Vector_orange.svg) right -550px top 50% / 800px #fff no-repeat;
+        align-self: stretch;
+    }
+}
+
+.mission__title {
+    font-size: 32px;
+    line-height: 100%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .mission__title {
+        font-size: 34px;
+        line-height: 120%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mission__title {
+        font-size: 48px;
+    }
+}
+
+.mission__subtitle {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    margin: 0 20px 0 40px;
+}
+
+@media (min-width: 768px) {
+    .mission__subtitle {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mission__subtitle {
+        font-size: 20px;
+    }
+}
+
+.subtitle1 {
+    margin-bottom: 20px;
+}
+
+.subtitle2 {
+    margin-bottom: 30px;
+}
+
+.direction {
+    background: #F3F4FB;
+}
+
+@media (min-width: 768px) {
+    .direction {
+        padding: 15px 0;
+    }
+}
+
+.direction__title {
+    font-size: 36px;
+    line-height: 120%;
+    margin: 0 20px 25px;
+    padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .direction__title {}
+}
+
+@media (min-width: 1000px) {
+    .direction__title {
+        font-size: 48px;
+    }
+}
+
+.direction__list {}
+
+@media (min-width: 768px) {
+    .direction__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 40px 0px 0 20px;
+    }
+    .direction__list::after {
+        content: "";
+        width: 30%;
+        align-self: stretch;
+        background: url(img/Frame_lap.svg) left top / contain no-repeat;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .direction__list::after {
+        background-image: url(img/Frame.svg);
+    }
+}
+
+.direction__item {
+    margin: 0 20px 25px;
+}
+
+@media (min-width: 768px) {
+    .direction__item {
+        display: inline-block;
+        width: 30%;
+        box-sizing: border-box;
+        margin: 0 0 25px 0;
+    }
+}
+
+.item-none {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .item-none {
+        display: block;
+    }
+}
+
+.direction_image {}
+
+@media (min-width: 768px) {
+    .direction_image {}
+}
+
+.direction__text {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .direction__text {
+        text-align: left;
+        font-size: 14px;
+        line-height: 160%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .direction__text {
+        font-size: 20px;
+    }
+}
+
+.direction__link {
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .direction__link {
+        display: none;
+    }
+}
+
+.direction__button {
+    text-align: center;
+    display: inline-block;
+    color: #1822B7;
+    text-decoration: none;
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    border: 2px solid #1822B7;
+    box-sizing: border-box;
+    border-radius: 14px;
+    transition: .5s;
+    padding: 8px 100px;
+}
+
+@media (min-width: 768px) {}
+
+a.direction__button:hover {
+    background: #F3F4FB;
+}
+
+a.direction__button:active {
+    background: #1822B7;
+    opacity: .2;
+}
+
+.founder {
+    margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .founder {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.founder__head {
+    font-size: 28px;
+    line-height: 120%;
+}
+
+@media (min-width: 768px) {
+    .founder__head {
+        width: 40%;
+    }
+}
+
+.head__title {
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 5px;
+    font-family: 'RF Dewi Extended';
+    font-style: normal;
+}
+
+@media (min-width: 768px) {
+    .head__title {
+        font-weight: 900;
+    }
+}
+
+@media (min-width: 1000px) {
+    .head__title {
+        font-size: 48px;
+    }
+}
+
+.founder__content {
+    color: #02020D;
+}
+
+@media (min-width: 768px) {
+    .founder__content {
+        width: 65%;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+}
+
+.founder__subtitle {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+@media (min-width: 1000px) {
+    .founder__subtitle {
+        font-size: 20px;
+    }
+}
+
+.content__block {
+    margin-bottom: 10p;
+}
+
+@media (min-width: 768px) {}
+
+.content__title {
+    font-size: 23px;
+    line-height: 120%;
+}
+
+@media (min-width: 1000px) {
+    .content__title {
+        font-size: 32px;
+    }
+}
+
+.content__subtitle {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: -5px;
+    margin-bottom: 35px;
+}
+
+@media (min-width: 1000px) {
+    .content__subtitle {
+        font-size: 20px;
+    }
+}
+
+.footer {
+    color: #62636c;
+    background: #f3f4fb;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.footer__section {
+    width: 310px;
+    left: auto;
+    right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .footer__section {
+        width: 840px;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer__section {
+        width: 1200px;
+    }
+}
+
+.footer__text {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    text-align: center;
+}
+
+.footer__link {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #62636c;
+}
+
+@media (min-width: 768px) {
+    .footer__link {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+}
+
+.footer__block {
+    height: 50%;
+    text-align: center;
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    margin-top: 10px;
+}
+
+@media (min-width: 1000px) {
+    .footer__block {
+        font-size: 14px;
+    }
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('fonts/RF Dewi Semibold'), local('RF-Dewi-Semibold'), url('fonts/fonts/RFDewi-Semibold.woff2') format('woff2'), url('fonts/RFDewi-Semibold.woff') format('woff'), url('fonts/RFDewi-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi Extended';
+    src: local('fonts/RF Dewi Extended Ultrabold'), local('RF-Dewi-Extended-Ultrabold'), url('fonts/RFDewiExtended-Ultrabold.woff2') format('woff2'), url('fonts/RFDewiExtended-Ultrabold.woff') format('woff'), url('fonts/RFDewiExtended-Ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
